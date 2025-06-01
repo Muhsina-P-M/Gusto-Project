@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gusto</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/css" id="operaUserStyle"></style>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Cal+Sans&family=Comic+Relief:wght@400;700&family=Inconsolata:wdth,wght@112.5,200..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playwrite+DK+Loopet:wght@100..400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        * {
+            font-family: "Comic Relief", system-ui;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Landing Section -->
+    <div
+        class="w-full md:h-screen h-96 bg-[url('https://www.shutterstock.com/image-photo/fried-salmon-steak-cooked-green-600nw-2489026949.jpg')] bg-no-repeat bg-cover ">
+        <div class="w-full md:h-screen h-96 " style="background-color: rgba(0, 0, 0, 0.527);">
+            <nav class="w-full bg-red-950 md:p-8 px-3 py-6 flex justify-center items-center fixed">
+                <ul class="text-white flex justify-evenly w-full md:w-">
+                    <li class="md:px-10 text-xl">Specials</li>
+                    <li class="md:px-10 text-xl">About</li>
+                    <li class="md:px-10 text-xl">Menu</li>
+                    <li class="md:px-10 text-xl">Chef</li>
+                    <li class="md:px-10 text-xl">Contact</li>
+                </ul>
+            </nav>
+
+            <div class="flex justify-center items-center flex-col w-full md:pt-80 pt-40">
+                <h1 class="text-white md:text-9xl text-6xl">Gusto</h1>
+
+                <h5 class="text-white md:mt-10 md:text-2xl text-center p-4">Where every meal is a masterpiece and every
+                    visit feels like home.</h5>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Our Specials -->
+
+    <div class="conatiner flex justify-center items-center flex-col ">
+        <h1 class="text-center md:mt-28 mt-10 md:text-4xl text-3xl">OUR SPECIALS</h1>
+        <div class=" w-40 h-1 md:my-8 my-3 bg-red-600"></div>
+
+        <div class="md:grid grid-cols-3 md:px-40 px-10 py-10">
+            <div class="md:p-8 p-3">
+                <h3 class="text-3xl text-center mb-4">Corndogs</h3>
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg?quality=90&amp;resize=556,505"
+                    class="w-full max-h-56" alt="no image">
+                <p class="text-center  mt-4">Make American-inspired corndogs by coating frankfurter sausages in a cornmeal batter, then deep-frying and serving with ketchup and yellow mustard.</p>
+            </div>
+            <div class="md:p-8 p-3">
+                <h3 class="text-3xl text-center mb-4">Fish finger hot dogs</h3>
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/03/Fish-finger-hot-dogs-a6ae660.jpg?quality=90&webp=true&resize=300,272"
+                    class="w-full max-h-56" alt="no image">
+                <p class="text-center  mt-4">A twist on a classic fish finger sandwich the whole family will love. Try lightly salting the cod to firm it up before cooking.</p>
+            </div>
+            <div class="md:p-8 p-3">
+                <h3 class="text-3xl text-center mb-4">Sweet and sour recipes
+                </h3>
+                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/masterchef_ss_pork11294-b2c8830.jpg?quality=90&webp=true&resize=300,272"
+                    class="w-full max-h-56" alt="no image">
+                <p class="text-center mt-4">Inspired by Chinese takeaway, our sweet and sour recipes include chicken, pork and vegetarian options. Try our healthy version for a family dinner.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Story -->
+
+    <div class="container bg-slate-200 my-20">
+        <div class="md:grid grid-cols-2">
+            <div>
+                <img src="https://www.blackpoolpleasurebeach.com/app/uploads/2021/12/preview-full-RED_6870.jpg"
+                    class="w-full h-full" alt="">
+            </div>
+            <div class="flex justify-center items-center flex-col py-10 md:px-40 px-10">
+                <h1 class="text-center  text-4xl">OUR STORY</h1>
+                <div class=" w-40 h-1 my-4 bg-red-600"></div>
+                <p class="mt-10 text-justify">This elegant restaurant dining area exudes sophistication and warmth. The space features round tables dressed in sleek black tablecloth, each meticulously set with fine glassware, white napkins, and polished silverware, reflecting a commitment to detail and luxury.</p>
+                <p class="mt-10 text-justify">Soft, ambient lighting creates an intimate atmosphere, complemented by the warm hues of wooden accents and subtle ceiling lighting. Floor-to-ceiling curtains along one side of the room add a sense of privacy and refinement. The overall layout is spacious, allowing for relaxed conversation and movement, making it ideal for upscale dining, special occasions, or corporate gatherings.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Menu -->
+    <div class="container flex justify-center items-center flex-col md:px-40 px-10 mb-20">
+        <h1 class=" text-4xl">MENU</h1>
+        <div class=" w-24 h-1 my-4 bg-red-600"></div>
+
+        <div class="md:grid grid-cols-2 w-full mt-12">
+            <!-- Breakfast -->
+            <div class="flex justify-center items-center flex-col md:p-16 p-4">
+                <h1 class="text-center text-3xl">BREAKFAST &amp; STARTS</h1>
+                <div class=" w-28 h-1 my-4 bg-red-600"></div>
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Corndogs</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Fish finger hot dogs</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Sweet and sour recipes</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+            </div>
+            <!-- Main Course -->
+            <div class="flex justify-center items-center flex-col md:p-16 p-4">
+                <h1 class=" text-3xl">MAIN COURSE</h1>
+                <div class=" w-24 h-1 my-4 bg-red-600"></div>
+
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Corndogs</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Fish finger hot dogs</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+
+                <div class="mt-5">
+                    <div class="flex justify-between text-2xl">
+                        <h5>Sweet and sour recipes</h5>
+                        <span>&#8377;770</span>
+                    </div>
+                    <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit Odio, quam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="container">
+        <!-- images -->
+        <div class="grid md:grid-cols-4 grid-cols-2 max-h-90">
+
+            <div>
+                <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/06/pouring-honey-on-pancakes.jpg" alt="no image" class="w-full">
+            </div>
+            <div>
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/6/12/3/FNM070116_Penne-with-Vodka-Sauce-and-Mini-Meatballs-recipe_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1465939620872.jpeg" alt="" class="w-full">
+            </div>
+
+
+            <div>
+                <img src="https://img.freepik.com/premium-photo/large-bowl-food-with-fish-vegetables_197463-2405.jpg" alt="" class="w-full">
+            </div>
+            <div>
+                <img src="https://www.eatingwell.com/thmb/QYZnBgF72TIKI6-A--NyoPa6avY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/greek-salmon-bowl-f681500cbe054bb1adb607ff55094075.jpeg" alt="" class="w-full">
+            </div>
+
+        </div>
+
+        <!-- Address -->
+        <div class="bg-slate-600 md:px-28 md:py-20 p-10 w-full m-h-screen">
+            <div class="md:grid grid-cols-3">
+                <div class="text-white flex justify-center items-center flex-col">
+                    <h4 class=" text-2xl text-white">RESERVATIONS</h4>
+                    <div class=" w-24 h-1 my-4 bg-red-600"></div>
+                    <p>Please call</p>
+
+                    <p>(912) 369-7891</p>
+                </div>
+                <div class=" text-white flex justify-center items-center flex-col">
+                    <h4 class=" text-2xl text-white">ADDRESS</h4>
+                    <div class=" w-24 h-1 my-4 bg-red-600"></div>
+                    <p>4321 California St,</p>
+
+                    <p> San Francisco, CA 12345</p>
+                </div>
+                <div class=" text-white flex justify-center items-center flex-col">
+                    <h4 class=" text-2xl text-white">OPENING HOURS</h4>
+                    <div class=" w-24 h-1 my-4 bg-red-600"></div>
+                    <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+
+                    <p> Fri-Sun: 11:00 AM - 02:00 AM</p>
+                </div>
+            </div>
+        </div>
+        <!-- Form -->
+        <div class="md:px-52 bg-slate-600 flex justify-center items-center flex-col">
+            <h4 class=" text-2xl text-white mt-5 md:mt-0">SEND US A MESSAGE</h4>
+            <div class=" w-24 h-1 my-4 bg-red-600"></div>
+
+            <div class="md:flex mt-4 w-4/6">
+                <input type="text" placeholder="Name" class="md:w-1/2 w-full p-1 bg-slate-200">
+                <input type="text" placeholder="Email" class=" md:w-1/2 w-full md:ms-3 mt-2 md:mt-0 p-1 bg-slate-200">
+            </div>
+            <textarea class="mt-3 w-4/6 h-28 p-1 bg-slate-200" placeholder="Message"></textarea>
+            <button class="py-3 px-4 border border-white my-10 text-white">SEND MESSAGE</button>
+        </div>
+        <!-- copy right -->
+        <div class="p-4 bg-slate-900 text-white md:flex justify-between">
+            <h5 class="md:ps-40 text-center p-3">© Copyright. All rights reserved | Designed by Muhsina P M</h5>
+            <div class="flex flex justify-center items-center">
+                <i class="fa-brands fa-facebook mx-5"></i>
+                <i class="fa-brands fa-x-twitter mx-5"></i>
+                <i class="fa-brands fa-instagram mx-5"></i>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
